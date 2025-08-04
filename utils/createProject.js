@@ -14,7 +14,6 @@ export const copyTemplateFilesAndFolders = async (
     const currentDestination = path.join(destination, entry);
 
     const stat = await fs.lstat(currentSource);
-
     if (stat.isDirectory()) {
       if (
         !(
@@ -25,12 +24,15 @@ export const copyTemplateFilesAndFolders = async (
           /.wrangler/.test(currentSource)
         )
       ) {
+        console.log(`Copying directory: ${currentSource}`);
         await fs.mkdir(currentDestination);
         await copyTemplateFilesAndFolders(
           currentSource,
           currentDestination,
           projectName
         );
+      } else {
+        console.log(`Skipping directory: ${currentSource}`);
       }
     } else {
       if (
@@ -38,6 +40,8 @@ export const copyTemplateFilesAndFolders = async (
         /wrangler.jsonc/.test(currentSource) ||
         /deploy-frontend.yaml/.test(currentSource)
       ) {
+        console.log(`Copying and modifying file: ${currentSource}`);
+
         const currentFileContents = await fs.readFile(currentSource, "utf8");
         const newFileContents = currentFileContents.replace(
           /liujip0-web-template/g,
@@ -52,7 +56,11 @@ export const copyTemplateFilesAndFolders = async (
             /pnpm-lock.yaml/.test(currentSource)
           )
         ) {
+          console.log(`Copying file: ${currentSource}`);
+
           await fs.copyFile(currentSource, currentDestination);
+        } else {
+          console.log(`Skipping file: ${currentSource}`);
         }
       }
     }
