@@ -17,11 +17,11 @@ export const copyTemplateFilesAndFolders = async (
     if (stat.isDirectory()) {
       if (
         !(
-          /node_modules/.test(currentSource) ||
-          /dist/.test(currentSource) ||
-          /build/.test(currentSource) ||
-          /.react-router/.test(currentSource) ||
-          /.wrangler/.test(currentSource)
+          /node_modules/.test(entry) ||
+          /dist/.test(entry) ||
+          /build/.test(entry) ||
+          /.react-router/.test(entry) ||
+          /.wrangler/.test(entry)
         )
       ) {
         console.log(`Copying directory: ${currentSource}`);
@@ -36,9 +36,9 @@ export const copyTemplateFilesAndFolders = async (
       }
     } else {
       if (
-        /package.json/.test(currentSource) ||
-        /wrangler.jsonc/.test(currentSource) ||
-        /deploy-frontend.yaml/.test(currentSource)
+        /package.json/.test(entry) ||
+        /wrangler.jsonc/.test(entry) ||
+        /deploy-frontend.yaml/.test(entry)
       ) {
         console.log(`Copying and modifying file: ${currentSource}`);
 
@@ -51,10 +51,7 @@ export const copyTemplateFilesAndFolders = async (
         await fs.writeFile(currentDestination, newFileContents, "utf8");
       } else {
         if (
-          !(
-            /package-lock.json/.test(currentSource) ||
-            /pnpm-lock.yaml/.test(currentSource)
-          )
+          !(/package-lock.json/.test(entry) || /pnpm-lock.yaml/.test(entry))
         ) {
           console.log(`Copying file: ${currentSource}`);
 
