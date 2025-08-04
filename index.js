@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
 import inquirer from "inquirer";
+import packageInfo from "./package.json" with { type: "json" };
 import { init } from "./utils/createProject.js";
 
-console.log("@liujip0/create-web     " + process.version);
+console.log("@liujip0/create-web     v" + packageInfo.version);
 
 (async () => {
   inquirer
