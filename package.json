@@ -1,0 +1,19 @@
+{
+  "name": "create-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "bin": "main.ts",
+  "type": "module",
+  "exports": {
+    ".": "./main.ts",
+    "./utils/*.ts": "./utils/*.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0"
+}
