@@ -1,4 +1,9 @@
 packages:
   - create-web
-  - "template/frontend/**"
-  - "template/fullstack/**"
+  - template/frontend/**
+  - template/fullstack/**
+
+onlyBuiltDependencies:
+  - esbuild
+  - sharp
+  - workerd
