@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import inquirer from 'inquirer';
-import { init } from './utils/createProject.ts';
+import { init } from './utils/createProject.js';
 
 (async () => {
   inquirer
@@ -35,7 +35,7 @@ import { init } from './utils/createProject.ts';
     .catch(catchError);
 })();
 
-function catchError(error: any) {
+function catchError(error) {
   if (error.isTtyError) {
     console.error('Cannot render the prompt...');
   } else {

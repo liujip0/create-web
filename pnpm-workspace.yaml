@@ -1,0 +1,4 @@
+packages:
+  - create-web
+  - "template/frontend/**"
+  - "template/fullstack/**"
