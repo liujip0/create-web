@@ -12,4 +12,7 @@ export default defineConfig({
       allow: ["../.."],
     },
   },
+  ssr: {
+    noExternal: ["@liujip0/components"],
+  },
 });
