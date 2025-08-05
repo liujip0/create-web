@@ -38,7 +38,8 @@ export const copyTemplateFilesAndFolders = async (
       if (
         /package.json/.test(entry) ||
         /wrangler.jsonc/.test(entry) ||
-        /deploy-frontend.yaml/.test(entry)
+        /deploy-frontend.yaml/.test(entry) ||
+        /trpc.ts/.test(entry)
       ) {
         console.log(`Copying and modifying file: ${currentSource}`);
 
