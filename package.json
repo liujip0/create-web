@@ -10,7 +10,7 @@
     "./utils/*.js": "./utils/*.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "up-deps": "pnpm up && cd template/fullstack && pnpm up-deps && cd ../frontend && pnpm up-deps"
   },
   "keywords": [],
   "author": "",
@@ -20,7 +20,7 @@
     "inquirer": "^12.9.0"
   },
   "devDependencies": {
-    "@types/node": "^24.1.0",
+    "@types/node": "^24.2.0",
     "prettier": "^3.6.2"
   }
 }
