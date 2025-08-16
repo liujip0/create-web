@@ -35,10 +35,10 @@ importers:
     dependencies:
       '@liujip0/components':
         specifier: ^0.2.3
-        version: 0.2.3(@material-symbols/font-400@0.33.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 0.2.3(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@material-symbols/font-400':
-        specifier: ^0.33.0
-        version: 0.33.0
+        specifier: ^0.34.1
+        version: 0.34.1
       '@react-router/node':
         specifier: ^7.8.1
         version: 7.8.1(react-router@7.8.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(typescript@5.8.3)
@@ -136,10 +136,10 @@ importers:
     dependencies:
       '@liujip0/components':
         specifier: ^0.2.3
-        version: 0.2.3(@material-symbols/font-400@0.33.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 0.2.3(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@material-symbols/font-400':
-        specifier: ^0.33.0
-        version: 0.33.0
+        specifier: ^0.34.1
+        version: 0.34.1
       '@react-router/node':
         specifier: ^7.8.1
         version: 7.8.1(react-router@7.8.1(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(typescript@5.8.3)
@@ -1040,8 +1040,8 @@ packages:
       react: ^19.1.0
       react-dom: ^19.1.0
 
-  '@material-symbols/font-400@0.33.0':
-    resolution: {integrity: sha512-1Ofq3c31kedy+hhUoR7FsYuPU8gHB1ssGm9M/tanuFs3rlygUmJa130+fOlVI5sMTOfIitRaYKiWy3qGXd91Hg==}
+  '@material-symbols/font-400@0.34.1':
+    resolution: {integrity: sha512-0z4VVcupP3Y0XAOs+xHCy9EsGKGTk8lD0p+9zx5kwdppKwFeq84dj0GNtT5uCRqZOPZ2zgYgXHJzuKQ0q1iIXw==}
 
   '@mjackson/node-fetch-server@0.2.0':
     resolution: {integrity: sha512-EMlH1e30yzmTpGLQjlFmaDAjyOeZhng1/XCd7DExR8PNAnG/G1tyruZxEoUe11ClnwGhGrtsdnyyUx1frSzjng==}
@@ -3410,13 +3410,13 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@liujip0/components@0.2.3(@material-symbols/font-400@0.33.0)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@liujip0/components@0.2.3(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
-      '@material-symbols/font-400': 0.33.0
+      '@material-symbols/font-400': 0.34.1
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
-  '@material-symbols/font-400@0.33.0': {}
+  '@material-symbols/font-400@0.34.1': {}
 
   '@mjackson/node-fetch-server@0.2.0': {}
 
