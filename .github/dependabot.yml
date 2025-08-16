@@ -11,4 +11,3 @@ updates:
       interval: "daily"
     assignees:
       - "liujip0"
-      - "dependabot[bot]"
