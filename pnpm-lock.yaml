@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       inquirer:
-        specifier: ^12.9.2
+        specifier: ^12.9.3
         version: 12.9.3(@types/node@24.3.0)
     devDependencies:
       '@types/node':
