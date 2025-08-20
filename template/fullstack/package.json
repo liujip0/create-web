@@ -8,7 +8,7 @@
     "app:dev": "cd app && pnpm dev",
     "api:dev": "cd api && pnpm dev",
     "create-environment": "cp app/.env.local.example app/.env.local && cp api/.dev.vars.example api/.dev.vars",
-    "create-environment-windows": "cd app && copy .env.local.example .env.local && cd ../../api && copy .dev.vars.example .dev.vars",
+    "create-environment-windows": "cd app && copy .env.local.example .env.local && cd ../api && copy .dev.vars.example .dev.vars",
     "up-deps": "pnpm update && cd app && pnpm update && cd ../api && pnpm update"
   },
   "keywords": [],
