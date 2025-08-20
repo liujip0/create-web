@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "concurrently --names app -c green \"pnpm app:dev\"",
     "app:dev": "cd app && pnpm dev",
-    "create-environment": "cp app/src/.env.local.example app/src/.env.local",
-    "create-environment-windows": "cd app/src && copy .env.local.example .env.local",
+    "create-environment": "cp app/.env.local.example app/.env.local",
+    "create-environment-windows": "cd app && copy .env.local.example .env.local",
     "up-deps": "pnpm update && cd app && pnpm update"
   },
   "keywords": [],
