@@ -11,12 +11,12 @@
   "license": "ISC",
   "packageManager": "pnpm@10.14.0",
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250820.0",
+    "@cloudflare/workers-types": "^4.20250822.0",
     "typescript": "~5.9.2",
-    "wrangler": "^4.31.0"
+    "wrangler": "^4.32.0"
   },
   "dependencies": {
-    "@trpc/server": "^11.4.4",
+    "@trpc/server": "^11.5.0",
     "zod": "^4.0.17"
   }
 }
