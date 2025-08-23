@@ -35,7 +35,7 @@ importers:
     dependencies:
       '@liujip0/components':
         specifier: ^0.2.8
-        version: 0.2.8(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 0.2.9(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@material-symbols/font-400':
         specifier: ^0.34.1
         version: 0.34.1
@@ -136,7 +136,7 @@ importers:
     dependencies:
       '@liujip0/components':
         specifier: ^0.2.8
-        version: 0.2.8(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
+        version: 0.2.9(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)
       '@material-symbols/font-400':
         specifier: ^0.34.1
         version: 0.34.1
@@ -1033,8 +1033,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
 
-  '@liujip0/components@0.2.8':
-    resolution: {integrity: sha512-epFs/QbDiTYLs9gahHoGuwbZTXr/5yGnvSwP7iwRKdjMj5rDfyNBNptjs3r0tKZGNkIHfaRg+WLhg9BY5Nd8eQ==}
+  '@liujip0/components@0.2.9':
+    resolution: {integrity: sha512-aZocFoJ2ijnLjU394QjHTKnYtub7bzLVuur8P0HDmHZocEHSaC4sIeihSxJLnmXEsD/7gvnb0VHAzwPPo//m8w==}
     peerDependencies:
       '@material-symbols/font-400': ^0.34.1
       react: ^19.1.0
@@ -3410,7 +3410,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@liujip0/components@0.2.8(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
+  '@liujip0/components@0.2.9(@material-symbols/font-400@0.34.1)(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
       '@material-symbols/font-400': 0.34.1
       react: 19.1.1
