@@ -9,34 +9,34 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@liujip0/components": "^0.2.8",
+    "@liujip0/components": "^0.2.9",
     "@material-symbols/font-400": "^0.34.1",
-    "@react-router/node": "^7.8.1",
-    "@react-router/serve": "^7.8.1",
-    "@tanstack/react-query": "^5.85.5",
+    "@react-router/node": "^7.8.2",
+    "@react-router/serve": "^7.8.2",
+    "@tanstack/react-query": "^5.85.9",
     "@trpc/client": "^11.5.0",
     "@trpc/tanstack-react-query": "^11.5.0",
     "isbot": "^5.1.30",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "react-router": "^7.8.1"
+    "react-router": "^7.8.2"
   },
   "devDependencies": {
-    "@eslint/js": "^9.33.0",
+    "@eslint/js": "^9.34.0",
     "@liujip0-web-template/api": "workspace:*",
-    "@react-router/dev": "^7.8.1",
-    "@types/react": "^19.1.10",
-    "@types/react-dom": "^19.1.7",
-    "@vitejs/plugin-react": "^5.0.1",
-    "eslint": "^9.33.0",
+    "@react-router/dev": "^7.8.2",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "eslint": "^9.34.0",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
     "typescript": "~5.9.2",
-    "typescript-eslint": "^8.40.0",
-    "vite": "^7.1.3",
+    "typescript-eslint": "^8.42.0",
+    "vite": "^7.1.4",
     "vite-tsconfig-paths": "^5.1.4",
-    "wrangler": "^4.32.0"
+    "wrangler": "^4.33.1"
   },
-  "packageManager": "pnpm@10.14.0+sha512.ad27a79641b49c3e481a16a805baa71817a04bbe06a38d17e60e2eaee83f6a146c6a688125f5792e48dd5ba30e7da52a5cda4c3992b9ccf333f9ce223af84748"
+  "packageManager": "pnpm@10.15.1+sha512.34e538c329b5553014ca8e8f4535997f96180a1d0f614339357449935350d924e22f8614682191264ec33d1462ac21561aff97f6bb18065351c162c7e8f6de67"
 }
