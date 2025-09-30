@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@liujip0/components": "^0.2.9",
-    "@material-symbols/font-400": "^0.34.1",
+    "@material-symbols/font-400": "^0.36.2",
     "@react-router/node": "^7.8.2",
     "@react-router/serve": "^7.8.2",
     "@tanstack/react-query": "^5.85.9",
