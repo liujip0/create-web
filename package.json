@@ -1,6 +1,6 @@
 {
   "name": "@liujip0/create-web",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "",
   "main": "index.js",
   "bin": "index.js",
